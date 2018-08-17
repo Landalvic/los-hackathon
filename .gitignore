@@ -1,0 +1,25 @@
+.project
+.settings/
+.svn/
+*.iml
+*.class
+.classpath
+.externalToolBuilders/
+.idea/
+.sass-cache/
+built/
+deploiements/
+!/documentation technique
+/documentation technique/*
+!/documentation technique/Solr
+/documentation technique/Solr/*
+!/documentation technique/Solr/web4g-solr-configuration
+fiches_batchs/
+node_modules/
+scripts_sql/
+target/
+idbanks.txt
+dependency-reduced-pom.xml
+package-lock.json
+application-bdm.js
+application-bdm.js.map

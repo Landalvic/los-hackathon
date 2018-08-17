@@ -1,0 +1,298 @@
+Indicateur##INDICATEUR
+Chiffre d'affaires HT##ACTCATVALENE
+Nombre d'entreprises##ACTENTNOMENS
+Augmentations par réévaluation des terrains##AIM211VALENE
+Augmentations par réévaluation des installations techniques, matériel et outillage industriel##AIM215VALENE
+Augmentations par acquisitions, créations, apports virements poste à poste terrains##AIM221VALENE
+Total augmentations par acquisitions, créations apports, virements poste à poste immo. corporelles##AIMC120VAENE
+Augmentations par réévaluation des installations générales, agencements, aménagements divers##AIMC216VAENE
+Augmentations par réévaluation du matériel de transport##AIMC217VAENE
+Augmentations par réévaluations des constructions##AIMC312VAENE
+Augmentation par réévaluation des autres immobilisations corporelles##AIMC315VAENE
+Total augmentations par acquisitions, créations, apports, virements de poste à poste immo. financières##AIMF121VAENE
+Augmentation par réévaluation immobilisations incorporelles##AIMI115VAENE
+Augmentation par acquisitions, créations, apports, virements de poste à poste immo. incorporelles##AIMI125VAENE
+Total des augmentations par réévaluation des immobilisations##AIMT119VAENE
+Total augmentations par acquisitions, créations, apports, virements de poste à poste##AIMT129VAENE
+Total amortissements sur immobilisations amortissables fin d'exercice##BAC100VALENE
+Total de l'actif immobilisé##BAC102VALENE
+Total de l'actif circulant y compris charges constatées d'avance##BAC103VALENE
+Autres comptes de régularisation##BAC104VALENE
+Fonds commercial##BAC114VALENE
+Total des immobilisations incorporelles brutes, autres que le fonds commercial##BAC117VALENE
+Immobilisations corporelles : terrains##BAC121VALENE
+Immobilisations corporelles : constructions##BAC122VALENE
+Immobilisations corporelles : installations techniques, matériel et outillage industriels##BAC123VALENE
+Autres immobilisations corporelles##BAC124VALENE
+Immobilisations corporelles en cours##BAC125VALENE
+Immobilisations corporelles : avances et acomptes##BAC126VALENE
+Total amortissements immobilisations corporelles fin de l'exercice##BAC130VALENE
+Immobilisations financières : autres participations##BAC141VALENE
+Immobilisations financières : autres titres immobilisés##BAC143VALENE
+Immobilisations financières : participations évaluées suivant méthode mise en équivalence##BAC147VALENE
+Créances rattachées à participations + prêts + autres immobilisations financières##BAC148VALENE
+Stocks : matières premières, approvisionnements##BAC152VALENE
+Stocks : en-cours de production de biens##BAC153VALENE
+Stocks : en-cours de production de services##BAC154VALENE
+Stocks : produits intermédiaires et finis##BAC155VALENE
+Stocks : marchandises##BAC156VALENE
+Avances et accomptes versés sur commandes##BAC171VALENE
+Créances : clients et comptes rattachés##BAC172VALENE
+Autres créances##BAC173VALENE
+Valeurs mobilières de placement##BAC181VALENE
+Disponibilités##BAC182VALENE
+Charges constatées d'avance##BAC190VALENE
+Total des diminutions des amortissements des immobilisations##BAC200VALENE
+Total des amortissements et provisions de l'actif immobilisé##BAC202VALENE
+Total des amortissements et provisions de l'actif circulant (+ charges constatées d'avance)##BAC203VALENE
+Amortissements et provisions pour dépréciations sur immobilisations incorporelles##BAC210VALENE
+Immobilisations incorporelles  amortissements et provisions pour dépréciations##BAC214217ENE
+Amortissements et provisions sur fonds commercial##BAC214VALENE
+Total amortissements, dépréciations immobilisations incorporelles, autres que fonds commercial##BAC217VALENE
+Immobilisations corporelles (amortissements)##BAC220VALENE
+Amortissements et provisions sur immobilisations corporelles : terrains##BAC221VALENE
+Amortissements et provisions sur immobilisations corporelles : constructions##BAC222VALENE
+Amortissements pour dépréciations sur installations techniques, matériel outillage industriels##BAC223VALENE
+Amortissements et provisions sur autres immobilisations corporelles##BAC224VALENE
+Amortissements provisions sur immobilisations corporelles : immobilisations en cours##BAC225VALENE
+Amortissements et provisions sur immobilisations corporelles : avances et acomptes##BAC226VALENE
+Total diminutions amortissements sur immobilisations corporelles amortissables##BAC230VALENE
+Immobilisations financières (amortissements)##BAC240VALENE
+Provisions pour dépréciations sur immobilisations financières : autres participations##BAC241VALENE
+ Provisions pour dépréciations des autres titres immobilisés##BAC243VALENE
+Provisions pour dépréciations participations évaluées suivant méthode mise en équivalence##BAC247VALENE
+Provisions pour dépréciations créances rattachées à participations + prêts + autres immo. financières##BAC248VALENE
+¨Provisions pour dépréciations de stocks de matières premières et approvisionnements##BAC252VALENE
+Provisions pour dépréciations des en cours de production de biens##BAC253VALENE
+Provisions pour dépréciation des en-cours de production de services##BAC254VALENE
+Provisions pour dépréciation des stocks de produits intermédiaires et finis##BAC255VALENE
+Provisions sur stocks : marchandises##BAC256VALENE
+Provisions sur créances clients et comptes rattachés##BAC272VALENE
+Provisions sur autres créances##BAC273VALENE
+Provisions sur valeurs mobilières de placement (dont actions propres)##BAC281VALENE
+Provisions sur disponibilités##BAC282VALENE
+Provisions sur charges constatées d'avance, autres comptes de régularisation##BAC290VALENE
+Total des augmentations des amortissements sur immobilisations##BAC300VALENE
+Autres produits d'exploitation, reprises sur amortissements, provisions, transferts de charges)##BAC314315ENE
+Total des augmentations des amortissements des immobilisations corporelles##BAC330VALENE
+Total  amortissements sur immobilisations amortissables début d'exercice##BAC400VALENE
+Total des amortissements sur immobilisations corporelles début d'exercice##BAC430VALENE
+Affectations : dividendes##BAC604VALENE
+Stocks (matières premières, en-cours de production, approvisionnements, produits intermédiaires, finis)##BACSTOMPPENE
+Résultat de l'exercice (bénéfice ou perte)##BPA100VALENE
+Total passif##BPA300VALENE
+Capitaux propres##BPA301VALENE
+Autres fonds propres##BPA302VALENE
+Provisions pour risques et charges##BPA303VALENE
+Dettes et produits constatés d'avance##BPA304VALENE
+Capital social, individuel et primes d'émission##BPA311VALENE
+Ecarts de révaluation##BPA313VALENE
+Réserves légales##BPA314VALENE
+Report à nouveau##BPA318VALENE
+Subventions d'investissement##BPA320VALENE
+Provisions réglementées##BPA321VALENE
+Emprunts et dettes assimilées##BPA330VALENE
+Avances et acomptes reçus sur commandes en cours##BPA341VALENE
+Dettes fournissseurs et comptes rattachés##BPA342VALENE
+Autres dettes##BPA345VALENE
+Produits constatés d'avance autres comptes de régularisation##BPA350VALENE
+Redevances de crédit-bail##DEPBAIVALENE
+Diminution par virements de poste à poste des terrains##DIM231VALENE
+Diminutions par cession à des tiers ou mises hors service des terrains##DIM241VALENE
+Total diminutions par virements de poste à poste des immobilisations corporelles##DIMC130VAENE
+Total diminutions immobilisations corporelles par cessions, mises hors services ou une mise en équivalence##DIMC140VAENE
+Total diminutions par virements de poste à poste des immobilisations financières##DIMF131VAENE
+Total diminutions immobilisations financières résultant d une mise en équivalence##DIMF141VAENE
+Diminution par virements poste à poste immobilisations incorporelles au cours de l exercice##DIMI135VAENE
+Diminution par cession à tiers ou mises hors service immobilisations incorporelles##DIMI145VAENE
+Total des diminution par virements de poste à poste des immobilisations##DIMT139VAENE
+Total diminutions suite cessions à tiers, mises HS ou résultant mise en équivalence##DIMT149VAENE
+Effectif salarié au 31/12##EMPSALNOMENS
+Effectif salarié en équivalent temps plein##ESEQTPNOMENS
+Total des immobilisations corporelles, au début de l exercice##IMC100VALENE
+Total des augmentations par réévaluation des immobilisations corporelles##IMC110VALENE
+Total des immobilisations corporelles (valeur brute en fin d exercice)##IMC150VALENE
+Immobilisations corporelles : terrains, au début de l exercice##IMC201VALENE
+Immobilisations corporelles : terrains (valeur brute en fin d exercice)##IMC251VALENE
+Total des immobilisations financières, au début de l exercice##IMF101VALENE
+Total augmentations par réévaluation immobilisations financières ou résultant d une mise en équivalence##IMF111VALENE
+Total des immobilisations financières (valeur brute en fin d exercice)##IMF151VALENE
+Total des immobilisations incorporelles, au début de l'exercice##IMI105VALENE
+Total des immobilisations incorporelles, à la fin l exercice##IMI155VALENE
+Immobilisations corporelles##IMOCORVALENE
+Immobilisations financières##IMOFINVALENE
+Immobilisations incorporelles##IMOINCVALENE
+Total des immobilisations, au début de l exercice##IMT109VALENE
+Total général des immobilisations (valeur brute en fin d'exercice)##IMT159VALENE
+Engagement de crédit-bail##INVBAIVALENE
+Investissement total hors apport net d'amortissements##INVTOTVALENE
+Marge d'autofinancement##RAGAUTTAUENP
+Chiffre d'affaires/Effectif salarié##RAGCAEVALENE
+Intensité capitalistique##RAGCAPVALENE
+Taux de couverture des valeurs immobilisées##RAGCOUTAUENP
+Taux de couverture des valeurs immobilisées##RAGCOUTAUESP
+Levier financier##RAGDEFTAUENP
+Levier financier##RAGDEFTAUESP
+Taux d'endettement##RAGDETTAUENP
+Taux d'endettement##RAGDETTAUESP
+Frais de personnel/Valeur ajoutée##RAGEVATAUENP
+Frais de personnel/Valeur ajoutée##RAGEVATAUESP
+Rentabilité brute des immobilisations corporelles##RAGIMOTAUENP
+Rentabilité brute des immobilisations corporelles##RAGIMOTAUESP
+Taux d'intérêt apparent##RAGINTTAUENP
+Taux d'intérêt apparent##RAGINTTAUESP
+Taux d'investissement##RAGINVTAUENP
+Taux d'investissement##RAGINVTAUESP
+Taux de marge brute##RAGMARTAUENP
+Taux de marge brute##RAGMARTAUESP
+Délais de paiement des clients##RAGPACVALENJ
+Délais de paiement des clients##RAGPACVALESJ
+Délais de paiment des fournisseurs##RAGPAFVALENJ
+Délais de paiment des fournisseurs##RAGPAFVALESJ
+Taux de prélèvement financier##RAGPRETAUENP
+Taux de prélèvement financier##RAGPRETAUESP
+Rentabilité globale##RAGRENTAUENP
+Rentabilité globale##RAGRENTAUESP
+Capacité de remboursement##RAGRSTTAUENP
+Capacité de remboursement##RAGRSTTAUESP
+Taux de valeur ajoutée##RAGTVATAUENP
+Taux de valeur ajoutée##RAGTVATAUESP
+Valeur ajoutée/Effectif salarié en ETP##RAGVAEVALENE
+Dépenses de R&D financées par l'Etat (branche)##RECAIDBRARDE
+Dépenses de R&D  financées par l'Etat (secteur)##RECAIDSECRDE
+Part des dépenses intérieures de R&D pour la recherche appliquée (branche)##RECAPPBRARDP
+Part des dépenses intérieures de R&D pour la recherche appliquée (secteur)##RECAPPSECRDP
+Chiffre d'affaires de la branche##RECCATBRARDE
+Chiffre d'affaires du secteur##RECCATSECRDE
+Part des dépenses intérieures de R&D pour le développement (branche)##RECDEVBRARDP
+Part des dépenses intérieures de R&D pour le développement (secteur)##RECDEVSECRDP
+Dépenses extérieures de la branche##RECDPEBRARDE
+Dépenses extérieures du secteur##RECDPESECRDE
+Dépenses totales intérieures de R&D (branche)##RECDPIBRARDE
+Dépenses totales intérieures de R&D (secteur)##RECDPISECRDE
+Effectif de la branche affecté à la R&D##RECEFRBRARDS
+Effectif du secteur affecté à la R&D##RECEFRSECRDS
+Effectif total de la branche au 31/12##RECEFTBRARDS
+Effectif total du secteur au 31/12##RECEFTSECRDS
+Nombre d'entreprises de la branche##RECENTBRARDS
+Nombre d'entreprises du secteur##RECENTSECRDS
+Part des dépenses intérieures de R&D pour la recherche fondamentale (branche)##RECFONBRARDP
+Part des dépenses intérieures de R&D pour la recherche fondamentale (secteur)##RECFONSECRDP
+Nombre de chercheurs de la branche##RECINGBRARDS
+Nombre de chercheurs du secteur##RECINGSECRDS
+Bénéfice ou perte##RES100VALENE
+Bénéfice ou perte##RES100VALESE
+Résultat d exploitation##RES101VALENE
+Résultat d exploitation##RES101VALESE
+Résultat financier##RES102VALENE
+Résultat financier##RES102VALESE
+Résultat courant avant impôt##RES103VALENE
+Résultat courant avant impôt##RES103VALESE
+Résultat exceptionnel##RES104VALENE
+Résultat exceptionnel##RES104VALESE
+Total des charges d exploitation##RES201VALENE
+Total des charges d exploitation##RES201VALESE
+Opérations en commun : perte supportée ou bénéfice transféré##RES202VALENE
+Opérations en commun : perte supportée ou bénéfice transféré##RES202VALESE
+Total des charges financières##RES203VALENE
+Total des charges financières##RES203VALESE
+Total des charges exceptionnelles##RES204VALENE
+Total des charges exceptionnelles##RES204VALESE
+Participation des salariés au résultat de l entreprise##RES205VALENE
+Participation des salariés au résultat de l entreprise##RES205VALESE
+Impôts sur les bénéfices##RES206VALENE
+Impôts sur les bénéfices##RES206VALESE
+Charges d exploitation : achats de marchandises##RES210VALENE
+Charges d exploitation : achats de marchandises##RES210VALESE
+Charges d exploitation : variations de stocks de marchandises##RES211VALENE
+Charges d exploitation : variations de stocks de marchandises##RES211VALESE
+Charges d'exploitation : achats de matières premières, autres approvisionnements##RES212VALENE
+Charges d'exploitation : achats de matières premières, autres approvisionnements##RES212VALESE
+Charges d exploitation : variations de stocks (matières premières et  approvisionnements)##RES213VALENE
+Charges d exploitation : variations de stocks (matières premières et  approvisionnements)##RES213VALESE
+Charges d exploitation : autres achats et charges externes##RES214VALENE
+Charges d exploitation : autres achats et charges externes##RES214VALESE
+Charges d exploitation : impôts, taxes, versements assimilés##RES215VALENE
+Charges d exploitation : impôts, taxes, versements assimilés##RES215VALESE
+Frais de personnel##RES216217ENE
+Frais de personnel##RES216217ESE
+Charges d exploitation : salaires et traitements##RES216VALENE
+Charges d exploitation : salaires et traitements##RES216VALESE
+Charges d exploitation : charges sociales##RES217VALENE
+Charges d exploitation : charges sociales##RES217VALESE
+Charges d exploitation : dotations aux amortissements sur immobilisations##RES218VALENE
+Charges d exploitation : dotations aux amortissements sur immobilisations##RES218VALESE
+Dotations aux provisions##RES219VALENE
+Dotations aux provisions##RES219VALESE
+Autres charges d exploitation##RES222VALENE
+Autres charges d exploitation##RES222VALESE
+Charges financières : intérêts et charges assimilées##RES231VALENE
+Charges financières : intérêts et charges assimilées##RES231VALESE
+Charges exceptionnelles sur opérations en capital##RES241VALENE
+Charges exceptionnelles sur opérations en capital##RES241VALESE
+Total des produits d exploitation##RES301VALENE
+Total des produits d exploitation##RES301VALESE
+Opérations en commun : bénéfice attribué ou perte transférée##RES302VALENE
+Opérations en commun : bénéfice attribué ou perte transférée##RES302VALESE
+Total des produits financiers##RES303VALENE
+Total des produits financiers##RES303VALESE
+Total des produits exceptionnels##RES304VALENE
+Total des produits exceptionnels##RES304VALESE
+Produits d exploitation : production stockée##RES311VALENE
+Produits d exploitation : production stockée##RES311VALESE
+Produits d exploitation : production immobilisée##RES312VALENE
+Produits d exploitation : production immobilisée##RES312VALESE
+Produits d exploitation : subventions d exploitation##RES313VALENE
+Produits d exploitation : subventions d exploitation##RES313VALESE
+Produits d exploitation : reprises sur amortissements et provisions, transferts de charges##RES314VALENE
+Produits d exploitation : reprises sur amortissements et provisions, transferts de charges##RES314VALESE
+Produits d exploitation : autres produits##RES315VALENE
+Produits d exploitation : autres produits##RES315VALESE
+Produits financiers de participations##RES330VALENE
+Produits financiers de participations##RES330VALESE
+Produits des autres valeurs valeurs mobilières,  autres intérêts et produits assimilés##RES331332ENE
+Produits des autres valeurs valeurs mobilières,  autres intérêts et produits assimilés##RES331332ESE
+Produits financiers des autres valeurs mobilières et créances de l'actif immobilisé##RES331VALENE
+Produits financiers des autres valeurs mobilières et créances de l'actif immobilisé##RES331VALESE
+Autres intérêts et produits assimilés##RES332VALENE
+Autres intérêts et produits assimilés##RES332VALESE
+Produits exceptionnels sur opérations en capital##RES341VALENE
+Produits exceptionnels sur opérations en capital##RES341VALESE
+Total ventes de marchandises##RES401VALENE
+Total ventes de marchandises##RES401VALESE
+Total production vendue de biens##RES402VALENE
+Total production vendue de biens##RES402VALESE
+Total production vendue de services##RES403VALENE
+Total production vendue de services##RES403VALESE
+Total exportations et livraisons intracommunautaires##RES410VALENE
+Total exportations et livraisons intracommunautaires##RES410VALESE
+Chiffres d'affaires nets en France##RES420VALENE
+Chiffres d'affaires nets en France##RES420VALESE
+Taxe intérieure sur les produits pétroliers##RES494VALENE
+Taxe intérieure sur les produits pétroliers##RES494VALESE
+Cotisations personnelles de l exploitant 2053##RES502VALENE
+Cotisations personnelles de l exploitant 2053##RES502VALESE
+Autres achats et charges externes : crédit-bail mobilier##RESD331VAENE
+Autres achats et charges externes : crédit-bail mobilier##RESD331VAESE
+Autres achats et charges externes : crédit-bail immobilier##RESD332VAENE
+Autres achats et charges externes : crédit-bail immobilier##RESD332VAESE
+Production vendue de biens et services##RESPRVVALENE
+Production vendue de biens et services##RESPRVVALESE
+Besoins en fonds de roulement##SOLBROVALENE
+Besoins en fonds de roulement##SOLBROVALESE
+Capacité d'autofinancement##SOLCAFVALENE
+Capacité d'autofinancement##SOLCAFVALESE
+Consommations intermédiaires##SOLCINVALENE
+Consommations intermédiaires##SOLCINVALESE
+Excédent brut d'exploitation##SOLEBEVALENE
+Excédent brut d'exploitation##SOLEBEVALESE
+Marge commerciale##SOLMARVALENE
+Marge commerciale##SOLMARVALESE
+Produit brut courant avant impot (PBCAI)##SOLPBCVALENE
+Produit brut courant avant impot (PBCAI)##SOLPBCVALESE
+Production totale##SOLPRT001ENE
+Production totale##SOLPRT001ESE
+Fonds de roulement##SOLROUVALENE
+Valeur ajoutée au coût des facteurs (VACF) - y compris autres produits et autres charges##SOLVACFC2ESE
+Valeur ajoutée hors taxe - hors autres produits et autres charges##SOLVAHTC1ENE
+Valeur ajoutée hors taxe - hors autres produits et autres charges##SOLVAHTC1ESE

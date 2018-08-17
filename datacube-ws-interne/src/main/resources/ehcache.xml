@@ -1,0 +1,17 @@
+<!DOCTYPE xml>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	updateCheck="false"
+	monitoring="off" 
+	dynamicConfig="false">
+	
+	<diskStore path="java.io.tmpdir" />
+	
+	<cache name="geoCache" 
+		maxEntriesLocalHeap="10000"
+		maxEntriesLocalDisk="10000" 
+		eternal="true" 
+		diskSpoolBufferSizeMB="50"
+		memoryStoreEvictionPolicy="LFU" > 
+		<persistence strategy="localTempSwap" synchronousWrites="false" />
+	</cache>
+</ehcache>

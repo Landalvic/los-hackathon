@@ -1,0 +1,1810 @@
+
+<http://data.insee.fr/dataset/chomage> a <http://purl.org/linked-data/cube#DataSet>;
+  <http://purl.org/linked-data/cube#structure> <http://id.insee.fr/meta/dsd/chomage/0.1>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Chômage"@null .
+
+<http://data.insee.fr/dataset/chomage/observation/001688359> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 1.375E3;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-0-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-0-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688359>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688360> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 6.2E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-1-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-1-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688360>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688361> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 2.76E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-0-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-0-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688361>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688362> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 1.111E3;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-2-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-2-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688362>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688363> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 1.034E3;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-1-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-1-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688363>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688364> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 4.93E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-0-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-0-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688364>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688365> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 7.45E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-2-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-2-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688365>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688366> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 1.24E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-2-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-2-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688366>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688367> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 2.41E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-2-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-2-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688367>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688368> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 6.3E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-1-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-1-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688368>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688369> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 1.52E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-1-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-1-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688369>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688370> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 2.52E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FM-1-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FM-1-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688370>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688371> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 6.6E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-0-15-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/0>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-0-15-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688371>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688372> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 5.6E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-0-15-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/10>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-0-15-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688372>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688373> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 6.6E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-0-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-0-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688373>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688374> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 2.7E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-0-50-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/7>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-0-50-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688374>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688375> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 1.4E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-0-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-0-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688375>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688376> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 1.6E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-0-DONT55-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/4>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-0-DONT55-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688376>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688377> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 6.5E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-2-15-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/0>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-2-15-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688377>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688378> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 7.1E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-2-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-2-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688378>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688379> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 2.4E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-2-50-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/7>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-2-50-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688379>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688380> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 1.2E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-2-55-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/8>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-2-55-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688380>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688381> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 4.5E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-2-15-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/1>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-2-15-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688381>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688382> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 5.7E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-2-15-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/10>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-2-15-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688382>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688383> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 6.8E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-1-15-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/0>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-1-15-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688383>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688384> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 3.1E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-1-50-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/7>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-1-50-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688384>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688385> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 1.9E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-1-55-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/8>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-1-55-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688385>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688386> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 4.5E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-1-15-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/1>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-1-15-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688386>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688387> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 5.5E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-1-15-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/10>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-1-15-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688387>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688388> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTC15> 4.5E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTC15>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTC15-A-FM-0-15-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/1>;
+  <http://purl.org/dc/terms/identifier> "CTTC15-A-FM-0-15-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688388>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688498> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 2.5E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-0-15-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/0>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-0-15-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688498>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688499> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 1.145E3;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-0-15-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/10>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-0-15-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688499>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688500> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 6.79E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-0-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-0-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688500>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688501> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 2.16E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-0-50-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/7>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-0-50-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688501>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688502> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 2.35E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-0-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-0-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688502>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688503> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 1.165E3;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-0-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-0-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688503>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688504> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 1.4E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-2-15-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/0>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-2-15-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688504>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688505> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 8.2E1;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-1-50-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/7>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-1-50-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688505>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688506> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 7.25E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-2-15-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/10>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-2-15-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688506>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688507> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 4.51E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-2-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-2-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688507>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688508> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 1.34E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-2-50-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/7>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-2-50-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688508>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688509> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 1.43E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-2-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-2-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688509>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688510> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 7.34E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-2-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-2-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688510>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688511> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 1.11E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-1-15-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/0>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-1-15-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688511>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688512> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 4.2E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-1-15-64> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/10>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-1-15-64"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688512>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688513> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 2.28E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-1-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-1-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688513>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688514> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 9.2E1;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-1-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-1-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688514>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688515> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/HALO> 4.3E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/HALO>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-HALO-A-FM-1-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "HALO-A-FM-1-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688515>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688526> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 8.0E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-0-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-0-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688526>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688527> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 8.3E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-0-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-0-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688527>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688528> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 7.6E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-0-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-0-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688528>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688529> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 8.0E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-0-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-0-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688529>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688530> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 4.7E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-0-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-0-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688530>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688531> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 4.9E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-0-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-0-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688531>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688532> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 8.9E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-2-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-2-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688532>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688533> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 9.3E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-2-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-2-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688533>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688534> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 7.2E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-1-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-1-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688534>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688535> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 7.6E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-1-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-1-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688535>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688536> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 1.71E1;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-0-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-0-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688536>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688537> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 1.78E1;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-0-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-0-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688537>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688538> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 8.7E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-2-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-2-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688538>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688539> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 9.2E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-2-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-2-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688539>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688540> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 4.6E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-2-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-2-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688540>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688541> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 4.7E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-2-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-2-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688541>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688542> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 1.86E1;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-2-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-2-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688542>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688543> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 1.93E1;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-2-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-2-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688543>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688544> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 6.5E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-1-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-1-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688544>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688545> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 6.9E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-1-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-1-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688545>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688546> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 4.8E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-1-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-1-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688546>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688547> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 4.9E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-1-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-1-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688547>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688548> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 1.59E1;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FM-1-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FM-1-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688548>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001688549> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTTXC> 1.66E1;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTTXC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTTXC-A-FE-1-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "CTTXC-A-FE-1-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001688549>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001745643> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 1.41E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-0-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-0-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001745643>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001745644> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 6.66E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-0-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-0-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001745644>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001745645> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 3.57E2;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-0-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-0-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001745645>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782326> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 3.1E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-0-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-0-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782326>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782327> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 3.8E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-1-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-1-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782327>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782328> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 3.0E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-1-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-1-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782328>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782329> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 2.8E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-1-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-1-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782329>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782330> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 2.8E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-1-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/2>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-1-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782330>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782331> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 3.6E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-2-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-2-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782331>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782332> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 2.6E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-2-00-24> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/9>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-2-00-24"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782332>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782333> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 2.9E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-2-25-49> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/5>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-2-25-49"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782333>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782334> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/TXCHLODU> 3.4E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/TXCHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-TXCHLODU-A-FM-2-50-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/0>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/1>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/6>;
+  <http://purl.org/dc/terms/identifier> "TXCHLODU-A-FM-2-50-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782334>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782335> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CHLODU> 3.9E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CHLODU>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CHLODU-A-FM-0-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/0>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "CHLODU-A-FM-0-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782335>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
+
+<http://data.insee.fr/dataset/chomage/observation/001782336> a <http://purl.org/linked-data/cube#Observation>;
+  <http://id.insee.fr/meta/attribut/confStatus> <http://id.insee.fr/codes/confStatus/0>;
+  <http://id.insee.fr/meta/attribut/dataRev> <http://id.insee.fr/codes/dataRev/0>;
+  <http://id.insee.fr/meta/mesure/CTCHC> 3.6E0;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#measureType> <http://id.insee.fr/meta/mesure/CTCHC>;
+  <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> "2013"@null .
+
+<http://data.insee.fr/chomage/slice-CTCHC-A-FE-0-00-> a <http://purl.org/linked-data/cube#Slice>;
+  <http://id.insee.fr/meta/attribut/decimals> <http://id.insee.fr/codes/decimals/0>;
+  <http://id.insee.fr/meta/attribut/unitMeasure> <http://id.insee.fr/codes/unitMeasure/0>;
+  <http://id.insee.fr/meta/attribut/unitMult> <http://id.insee.fr/codes/unitMult/1>;
+  <http://id.insee.fr/meta/dimension/freq> <http://id.insee.fr/codes/frequence/0>;
+  <http://id.insee.fr/meta/dimension/refGeo> <http://id.insee.fr/codes/zoneGeo/1>;
+  <http://id.insee.fr/meta/dimension/sexe> <http://id.insee.fr/codes/sexe/0>;
+  <http://id.insee.fr/meta/dimension/trancheAge> <http://id.insee.fr/codes/tranchesAges/11>;
+  <http://purl.org/dc/terms/identifier> "CTCHC-A-FE-0-00-"@null;
+  <http://purl.org/linked-data/cube#dataSet> <http://data.insee.fr/dataset/chomage>;
+  <http://purl.org/linked-data/cube#observation> <http://data.insee.fr/dataset/chomage/observation/001782336>;
+  <http://purl.org/linked-data/cube#sliceStructure> <http://id.insee.fr/meta/dsd/chomage/sliceByTime> .
