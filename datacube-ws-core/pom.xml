@@ -47,7 +47,7 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.insee</groupId>
-			<artifactId>melodi-core</artifactId>
+			<artifactId>datacube-core</artifactId>
 			<version>0.1</version>
 		</dependency>
 		<dependency>
