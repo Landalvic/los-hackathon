@@ -10,6 +10,9 @@ Pour lancer l'application, il faut :
   - aller dans le fichier ./datacube-core/src/main/resources/fr/insee/config/melodi.properties et mettre l'URL de la base RDF et le repository
   - aller dans le dossier ./datacube-ws-interne/src/main/webapp/static/react-melodi/react et lancer la commande "npm install"
   - aller dans le fichier ./datacube-ws-interne/src/main/webapp/static/react-melodi/react/_properties.js et renseigner le contextpath du web-service java
+  
+URL du web-service : http://localhost:8080/datacube-ws-interne/static/swagger-ui/index.html
+URL du back-office : http://localhost:8080/datacube-ws-interne/los/react/melodi/code-liste/recherche
 
 ## W3C Data Cube DSDs Model
 
