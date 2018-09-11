@@ -63,7 +63,8 @@ public class ChargementController {
 			@FormDataParam("file") FormDataContentDisposition fileDetails) throws Exception {
 		logger.info("/chargement/fichier a été appelé");
 		Date date = new Date();
-		File fichierCsv = FileUtils.getFile("/", date.getTime() + fileDetails.getFileName());
+		File fichierCsv = FileUtils.getFile("C:\\Users\\Julien\\Desktop\\hackathonprog",
+				date.getTime() + fileDetails.getFileName());
 		FileUtils.copyInputStreamToFile(uploadedInputStream, fichierCsv);
 		return Response.status(200).entity(chargementDonneesAgregeesService.infosFichier(fichierCsv)).build();
 	}

@@ -16,104 +16,143 @@ import org.springframework.stereotype.Service;
 
 import fr.insee.bidbo.dao.BaseRDF;
 import fr.insee.bidbo.dao.RDFConnection;
+import fr.insee.bidbo.model.rmes.Concept;
+import fr.insee.bidbo.model.rmes.ConceptMesure;
 import fr.insee.bidbo.model.rmes.ConceptScheme;
 import fr.insee.bidbo.model.rmes.Modalite;
 import fr.insee.bidbo.rdfinsee.enumeration.Langue;
 import fr.insee.bidbo.rdfinsee.vocabulary.SKOSStr;
+import fr.insee.bidbo.service.rmes.ConceptMesureService;
 import fr.insee.bidbo.service.rmes.ConceptSchemeService;
+import fr.insee.bidbo.service.rmes.ConceptService;
 import fr.insee.bidbo.service.rmes.ModaliteService;
 import fr.insee.bidbo.vocabulary.Insee;
 
 @Service
 public class ChargementCodeListeService {
 
-    private static final Logger logger = LoggerFactory.getLogger(ChargementCodeListeService.class);
+	private static final Logger logger = LoggerFactory.getLogger(ChargementCodeListeService.class);
 
-    @Autowired
-    private RDFConnection rdfConnection;
+	@Autowired
+	private RDFConnection rdfConnection;
 
-    @Autowired
-    private ModaliteService modaliteService;
+	@Autowired
+	private ModaliteService modaliteService;
 
-    @Autowired
-    private ConceptSchemeService conceptSchemeService;
+	@Autowired
+	private ConceptSchemeService conceptSchemeService;
 
-    public List<Statement> chargerCodeListe(List<String[]> lignes, boolean telechargerTurtle) {
+	@Autowired
+	private ConceptMesureService conceptMesureService;
 
-	List<Statement> triplets = new LinkedList<>();
+	@Autowired
+	private ConceptService conceptService;
 
-	String[] premiereLigne = lignes.remove(0);
-	String nomConceptFr = premiereLigne[0];
-	String nomConceptEn = premiereLigne[1];
-	String codeConcept = premiereLigne[2];
+	public List<Statement> chargerCodeListe(List<String[]> lignes, boolean telechargerTurtle) {
 
-	String urlIri = enregistrerConcept(triplets, codeConcept, nomConceptFr, nomConceptEn);
+		List<Statement> triplets = new LinkedList<>();
 
-	ConceptScheme cs = new ConceptScheme();
-	cs.setIri(Insee.NAMESPACE_RMES_CODES + codeConcept.toLowerCase() + "/cs");
-	cs.setIriClass(urlIri);
-	cs.setCode(codeConcept);
-	cs.setLibelleFr(nomConceptFr);
-	if (!StringUtils.isBlank(nomConceptEn)) {
-	    cs.setLibelleEn(nomConceptEn);
+		String[] premiereLigne = lignes.remove(0);
+		String nomConceptFr = premiereLigne[0];
+		String nomConceptEn = premiereLigne[1];
+		String codeConcept = premiereLigne[2];
+
+		String urlIri = enregistrerConcept(triplets, codeConcept, nomConceptFr, nomConceptEn);
+
+		ConceptScheme cs = new ConceptScheme();
+		cs.setIri(Insee.NAMESPACE_RMES_CODES + codeConcept.toLowerCase() + "/cs");
+		cs.setIriClass(urlIri);
+		cs.setCode(codeConcept);
+		cs.setLibelleFr(nomConceptFr);
+		if (!StringUtils.isBlank(nomConceptEn)) {
+			cs.setLibelleEn(nomConceptEn);
+		}
+		conceptSchemeService.add(cs, triplets);
+
+		triplets.add(rdfConnection.createStatement(urlIri, RDFS.SEEALSO, cs.getIri(), Insee.NAMESPACE_RMES_CODES));
+
+		for (String[] ligne : lignes) {
+			Modalite modalite = new Modalite();
+			modalite.setIri(Insee.NAMESPACE_RMES_CODES + ligne[2]);
+			modalite.setIriConceptScheme(cs.getIri());
+			modalite.setCode(ligne[2]);
+			modalite.setLibelleFr(ligne[0]);
+			modalite.setLibelleEn(ligne[1]);
+			modaliteService.add(modalite, triplets);
+			triplets.add(
+					rdfConnection.createStatement(modalite.getIri(), RDF.TYPE, urlIri, Insee.NAMESPACE_RMES_CODES));
+		}
+
+		if (!telechargerTurtle) {
+			rdfConnection.ajouterTriplets(BaseRDF.RMES, triplets);
+		}
+		logger.info("Triplets enregistrés");
+		return triplets;
 	}
-	conceptSchemeService.add(cs, triplets);
 
-	triplets.add(rdfConnection.createStatement(urlIri, RDFS.SEEALSO, cs.getIri(), Insee.NAMESPACE_RMES_CODES));
-
-	for (String[] ligne : lignes) {
-	    Modalite modalite = new Modalite();
-	    modalite.setIri(Insee.NAMESPACE_RMES_CODES + ligne[2]);
-	    modalite.setIriConceptScheme(cs.getIri());
-	    modalite.setCode(ligne[2]);
-	    modalite.setLibelleFr(ligne[0]);
-	    modalite.setLibelleEn(ligne[1]);
-	    modaliteService.add(modalite, triplets);
-	    triplets.add(
-		    rdfConnection.createStatement(modalite.getIri(), RDF.TYPE, urlIri, Insee.NAMESPACE_RMES_CODES));
+	private String enregistrerConcept(List<Statement> triplets, String code, String libelleFr, String libelleEn) {
+		String urlIri = Insee.NAMESPACE_RMES_CODES + code.toLowerCase() + "/" + code;
+		triplets.add(rdfConnection.createStatement(urlIri, RDF.TYPE, RDFS.CLASS, Insee.NAMESPACE_RMES_CODES));
+		triplets.add(rdfConnection.createStatement(urlIri, RDF.TYPE, OWL.CLASS, Insee.NAMESPACE_RMES_CODES));
+		triplets.add(rdfConnection.createStatement(urlIri, RDFS.SUBCLASSOF, SKOS.CONCEPT, Insee.NAMESPACE_RMES_CODES));
+		triplets.add(rdfConnection.createStatement(urlIri, SKOS.NOTATION, rdfConnection.createLiteral(code),
+				Insee.NAMESPACE_RMES_CODES));
+		triplets.add(rdfConnection.createStatement(urlIri, SKOS.PREF_LABEL,
+				rdfConnection.createLiteral(libelleFr, Langue.FR), Insee.NAMESPACE_RMES_CODES));
+		if (!StringUtils.isBlank(libelleEn)) {
+			triplets.add(rdfConnection.createStatement(urlIri, SKOS.PREF_LABEL,
+					rdfConnection.createLiteral(libelleEn, Langue.EN), Insee.NAMESPACE_RMES_CODES));
+		}
+		return urlIri;
 	}
 
-	if (!telechargerTurtle) {
-	    rdfConnection.ajouterTriplets(BaseRDF.RMES, triplets);
+	public List<Statement> telecharger(String code) {
+
+		List<Statement> triplets = new LinkedList<>();
+		ConceptScheme cs = conceptSchemeService.findByPredicat(BaseRDF.RMES, SKOSStr.NOTATION, code);
+		cs.setModalites(modaliteService.modalitesByConceptScheme(code));
+
+		String urlIri = enregistrerConcept(triplets, cs.getCode(), cs.getLibelleFr(), cs.getLibelleEn());
+
+		conceptSchemeService.add(cs, triplets);
+
+		triplets.add(rdfConnection.createStatement(urlIri, RDFS.SEEALSO, cs.getIri(), Insee.NAMESPACE_RMES_CODES));
+
+		for (Modalite modalite : cs.getModalites()) {
+			modaliteService.add(modalite, triplets);
+			triplets.add(
+					rdfConnection.createStatement(modalite.getIri(), RDF.TYPE, urlIri, Insee.NAMESPACE_RMES_CODES));
+		}
+		return triplets;
 	}
-	logger.info("Triplets enregistrés");
-	return triplets;
-    }
 
-    private String enregistrerConcept(List<Statement> triplets, String code, String libelleFr, String libelleEn) {
-	String urlIri = Insee.NAMESPACE_RMES_CODES + code.toLowerCase() + "/" + code;
-	triplets.add(rdfConnection.createStatement(urlIri, RDF.TYPE, RDFS.CLASS, Insee.NAMESPACE_RMES_CODES));
-	triplets.add(rdfConnection.createStatement(urlIri, RDF.TYPE, OWL.CLASS, Insee.NAMESPACE_RMES_CODES));
-	triplets.add(rdfConnection.createStatement(urlIri, RDFS.SUBCLASSOF, SKOS.CONCEPT, Insee.NAMESPACE_RMES_CODES));
-	triplets.add(rdfConnection.createStatement(urlIri, SKOS.NOTATION, rdfConnection.createLiteral(code),
-		Insee.NAMESPACE_RMES_CODES));
-	triplets.add(rdfConnection.createStatement(urlIri, SKOS.PREF_LABEL,
-		rdfConnection.createLiteral(libelleFr, Langue.FR), Insee.NAMESPACE_RMES_CODES));
-	if (!StringUtils.isBlank(libelleEn)) {
-	    triplets.add(rdfConnection.createStatement(urlIri, SKOS.PREF_LABEL,
-		    rdfConnection.createLiteral(libelleEn, Langue.EN), Insee.NAMESPACE_RMES_CODES));
+	public List<Statement> chargerConcept(List<String[]> lignes, boolean telechargerTurtle) {
+
+		List<Statement> triplets = new LinkedList<>();
+
+		for (String[] ligne : lignes) {
+			if (ligne[3].equals("1")) {
+				ConceptMesure c = new ConceptMesure();
+				c.setIri(Insee.NAMESPACE_RMES_CONCEPT_MESURE + ligne[0]);
+				c.setCode(ligne[0]);
+				c.setLibelleFr(ligne[1]);
+				c.setLibelleEn(ligne[2]);
+				conceptMesureService.add(c, triplets);
+			} else {
+				Concept c = new Concept();
+				c.setIri(Insee.NAMESPACE_RMES_CONCEPT + ligne[0]);
+				c.setCode(ligne[0]);
+				c.setLibelleFr(ligne[1]);
+				c.setLibelleEn(ligne[2]);
+				conceptService.add(c, triplets);
+			}
+		}
+
+		if (!telechargerTurtle) {
+			rdfConnection.ajouterTriplets(BaseRDF.RMES, triplets);
+		}
+		logger.info("Triplets enregistrés");
+		return triplets;
 	}
-	return urlIri;
-    }
-
-    public List<Statement> telecharger(String code) {
-
-	List<Statement> triplets = new LinkedList<>();
-	ConceptScheme cs = conceptSchemeService.findByPredicat(BaseRDF.RMES, SKOSStr.NOTATION, code);
-	cs.setModalites(modaliteService.modalitesByConceptScheme(code));
-
-	String urlIri = enregistrerConcept(triplets, cs.getCode(), cs.getLibelleFr(), cs.getLibelleEn());
-
-	conceptSchemeService.add(cs, triplets);
-
-	triplets.add(rdfConnection.createStatement(urlIri, RDFS.SEEALSO, cs.getIri(), Insee.NAMESPACE_RMES_CODES));
-
-	for (Modalite modalite : cs.getModalites()) {
-	    modaliteService.add(modalite, triplets);
-	    triplets.add(
-		    rdfConnection.createStatement(modalite.getIri(), RDF.TYPE, urlIri, Insee.NAMESPACE_RMES_CODES));
-	}
-	return triplets;
-    }
 
 }

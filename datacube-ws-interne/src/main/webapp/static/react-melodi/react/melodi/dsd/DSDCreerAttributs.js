@@ -76,7 +76,7 @@ class DSDCreerAttributs extends React.Component {
                 </option>
               );
             } else {
-              return <option value={index}>{concept.libelleFr}</option>;
+              return <option value={index}>{concept.libelleFr ? concept.libelleFr : concept.libelleEn}</option>;
             }
           });
           return (
@@ -102,7 +102,7 @@ class DSDCreerAttributs extends React.Component {
                 </option>
               );
             } else {
-              return <option value={index}>{concept.libelleFr}</option>;
+              return <option value={index}>{concept.libelleFr ? concept.libelleFr : concept.libelleEn}</option>;
             }
           });
           return (
@@ -153,11 +153,10 @@ class DSDCreerAttributs extends React.Component {
       {
         accessor: "iri",
         width: 80,
-        Cell: props => (
+        Cell: props =>
           <div className="center">
             <img onClick={this.onClickSupprimer} name={props.value} className="icone" src={context + "/static/icons/trash.svg"} alt="Supprimer" />
           </div>
-        )
       }
     ];
     return (
@@ -213,7 +212,4 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(DSDCreerAttributs);
+export default connect(mapStateToProps, mapDispatchToProps)(DSDCreerAttributs);

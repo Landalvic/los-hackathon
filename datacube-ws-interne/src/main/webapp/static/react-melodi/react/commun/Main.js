@@ -16,6 +16,7 @@ import CodeListeRechercher from "../melodi/codeliste/CodeListeRechercher";
 import CodeListeVisualiser from "../melodi/codeliste/CodeListeVisualiser";
 import ConceptCreer from "../melodi/concept/ConceptCreer";
 import ConceptRechercher from "../melodi/concept/ConceptRechercher";
+import ConceptChargerFichier from "../melodi/concept/ConceptChargerFichier";
 import ConceptVisualiser from "../melodi/concept/ConceptVisualiser";
 import DSD from "../melodi/dsd/DSD";
 import DSDRechercher from "../melodi/dsd/DSDRechercher";
@@ -52,6 +53,7 @@ class Main extends React.Component {
             <Route path={context + "/los/react/melodi/code-liste/chargement"} component={CodeListeCreer} />
             <Route path={context + "/los/react/melodi/code-liste/recherche"} component={CodeListeRechercher} />
             <Route path={context + "/los/react/melodi/code-liste/:codeListe?"} component={CodeListeVisualiser} />
+            <Route path={context + "/los/react/melodi/concept/chargement/fichier"} component={ConceptChargerFichier} />
             <Route path={context + "/los/react/melodi/concept/chargement"} component={ConceptCreer} />
             <Route path={context + "/los/react/melodi/concept/recherche"} component={ConceptRechercher} />
             <Route path={context + "/los/react/melodi/concept/:concept?"} component={ConceptVisualiser} />
@@ -79,9 +81,4 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default withRouter(
-  connect(
-    mapStateToProps,
-    mapDispatchToProps
-  )(Main)
-);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Main));

@@ -42,7 +42,10 @@ export class Header extends React.Component {
           <a href="#">Concept</a>
           <ul className="dropdown">
             <li>
-              <Link to={context + "/los/react/melodi/concept/chargement"}>Créer</Link>
+              <Link to={context + "/los/react/melodi/concept/chargement"}>Créer un concept</Link>
+            </li>
+            <li>
+              <Link to={context + "/los/react/melodi/concept/chargement/fichier"}>Créer des concepts</Link>
             </li>
             <li>
               <Link to={context + "/los/react/melodi/concept/recherche"}>Rechercher</Link>
@@ -93,7 +96,4 @@ const mapDispatchToProps = dispatch => {
   return {};
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Header);
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

@@ -24,94 +24,87 @@ import com.opencsv.enums.CSVReaderNullFieldIndicator;
 
 public abstract class CsvUtils {
 
-    private static final Logger logger = LoggerFactory.getLogger(CsvUtils.class);
+	private static final Logger logger = LoggerFactory.getLogger(CsvUtils.class);
 
-    public static <T> Iterator<T> readToBean(BufferedReader bufferedReader, char separator, String[] colonnes,
-	    Class<T> clazz) {
-	ColumnPositionMappingStrategy<T> strategy = new ColumnPositionMappingStrategy<>();
-	strategy.setType(clazz);
-	strategy.setColumnMapping(colonnes);
-	CsvToBean<T> csvToBean = new CsvToBeanBuilder<T>(bufferedReader)
-		.withSeparator('#')
-		.withMappingStrategy(strategy)
-		.withIgnoreQuotations(true)
-		.withIgnoreLeadingWhiteSpace(true)
-		.withFieldAsNull(CSVReaderNullFieldIndicator.EMPTY_SEPARATORS)
-		.build();
+	public static <T> Iterator<T> readToBean(BufferedReader bufferedReader, char separator, String[] colonnes,
+			Class<T> clazz) {
+		ColumnPositionMappingStrategy<T> strategy = new ColumnPositionMappingStrategy<>();
+		strategy.setType(clazz);
+		strategy.setColumnMapping(colonnes);
+		CsvToBean<T> csvToBean = new CsvToBeanBuilder<T>(bufferedReader).withSeparator('#')
+				.withMappingStrategy(strategy).withIgnoreQuotations(true).withIgnoreLeadingWhiteSpace(true)
+				.withFieldAsNull(CSVReaderNullFieldIndicator.EMPTY_SEPARATORS).build();
 
-	return csvToBean.iterator();
-    }
-
-    public static Iterator<String[]> read(BufferedReader bufferedReader, char separator) {
-	return readCommun(bufferedReader, separator).iterator();
-    }
-
-    public static List<String[]> readAll(BufferedReader bufferedReader, char separator) throws IOException {
-	return readCommun(bufferedReader, separator).readAll();
-    }
-
-    public static List<String[]> readAll(File fichier, char separator) {
-	try (BufferedReader reader = new BufferedReader(new FileReader(fichier))) {
-	    return readAll(reader, separator);
-	} catch (IOException e) {
-	    logger.error("Impossible de lire le fichier", e);
-	    return null;
-	}
-    }
-
-    public static String[] firstLine(File fichier) {
-	try (BufferedReader reader = new BufferedReader(new FileReader(fichier))) {
-	    Iterator<String[]> iterateur = CsvUtils.read(reader, '#');
-	    if (iterateur.hasNext()) {
-		return iterateur.next();
-	    } else {
-		return null;
-	    }
-	} catch (Exception e) {
-	    logger.error("Problème lors de la lecture du fichier", e);
-	    return null;
-	}
-    }
-
-    private static CSVReader readCommun(BufferedReader bufferedReader, char separator) {
-	CSVParser parser = new CSVParserBuilder()
-		.withSeparator(separator)
-		.withIgnoreQuotations(true)
-		.withIgnoreLeadingWhiteSpace(true)
-		.build();
-	return new CSVReaderBuilder(bufferedReader).withCSVParser(parser).build();
-    }
-
-    public static Iterator<LigneFichier> readToMap(BufferedReader bufferedReader, char separator) {
-	HeaderColumnNameMappingStrategy<LigneFichier> strategy = new HeaderColumnNameMappingStrategy<>();
-	strategy.setType(LigneFichier.class);
-	CsvToBean<LigneFichier> csvToBean = new CsvToBeanBuilder<LigneFichier>(bufferedReader)
-		.withSeparator('#')
-		.withMappingStrategy(strategy)
-		.withIgnoreQuotations(true)
-		.withIgnoreLeadingWhiteSpace(true)
-		.withFieldAsNull(CSVReaderNullFieldIndicator.EMPTY_SEPARATORS)
-		.build();
-
-	return csvToBean.iterator();
-    }
-
-    public static class LigneFichier {
-
-	@CsvBindAndJoinByName(column = ".*", elementType = String.class)
-	private MultiValuedMap<String, String> map;
-
-	public MultiValuedMap<String, String> getMap() {
-	    return map;
+		return csvToBean.iterator();
 	}
 
-	public void setMap(MultiValuedMap<String, String> map) {
-	    this.map = map;
+	public static Iterator<String[]> read(BufferedReader bufferedReader, char separator) {
+		return readCommun(bufferedReader, separator).iterator();
 	}
 
-	public String getMapFirst(String key) {
-	    return map.get(key).iterator().next();
+	public static List<String[]> readAll(BufferedReader bufferedReader, char separator) throws IOException {
+		return readCommun(bufferedReader, separator).readAll();
 	}
 
-    }
+	public static List<String[]> readAll(File fichier, char separator) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(fichier))) {
+			return readAll(reader, separator);
+		} catch (IOException e) {
+			logger.error("Impossible de lire le fichier", e);
+			return null;
+		}
+	}
+
+	public static String[] firstLine(File fichier) {
+		try (BufferedReader reader = new BufferedReader(new FileReader(fichier))) {
+			Iterator<String[]> iterateur = CsvUtils.read(reader, '#');
+			if (iterateur.hasNext()) {
+				return iterateur.next();
+			} else {
+				return null;
+			}
+		} catch (Exception e) {
+			logger.error("Problème lors de la lecture du fichier", e);
+			return null;
+		}
+	}
+
+	private static CSVReader readCommun(BufferedReader bufferedReader, char separator) {
+		CSVParser parser = new CSVParserBuilder().withSeparator(separator).withIgnoreQuotations(true)
+				.withIgnoreLeadingWhiteSpace(true).build();
+		return new CSVReaderBuilder(bufferedReader).withCSVParser(parser).build();
+	}
+
+	public static Iterator<LigneFichier> readToMap(BufferedReader bufferedReader, char separator) {
+		HeaderColumnNameMappingStrategy<LigneFichier> strategy = new HeaderColumnNameMappingStrategy<>();
+		strategy.setType(LigneFichier.class);
+		CsvToBean<LigneFichier> csvToBean = new CsvToBeanBuilder<LigneFichier>(bufferedReader).withSeparator('#')
+				.withMappingStrategy(strategy).withIgnoreQuotations(true).withIgnoreLeadingWhiteSpace(true)
+				.withFieldAsNull(CSVReaderNullFieldIndicator.EMPTY_SEPARATORS).build();
+
+		return csvToBean.iterator();
+	}
+
+	public static class LigneFichier {
+
+		@CsvBindAndJoinByName(column = ".*", elementType = String.class)
+		private MultiValuedMap<String, String> map;
+
+		public MultiValuedMap<String, String> getMap() {
+			return map;
+		}
+
+		public void setMap(MultiValuedMap<String, String> map) {
+			this.map = map;
+		}
+
+		public String getMapFirst(String key) {
+			return map.get(key).iterator().next();
+		}
+
+		public boolean contains(String key) {
+			return map.get(key).iterator().hasNext();
+		}
+
+	}
 }
