@@ -15,6 +15,8 @@ URL du web-service : http://localhost:8080/datacube-ws-interne/static/swagger-ui
   
 URL du back-office : http://localhost:8080/datacube-ws-interne/los/react/melodi/code-liste/recherche
 
+Launch Maven command : clean -pl datacube-ws-interne tomcat7:run -Dskiptests -am
+
 ## W3C Data Cube DSDs Model
 
 !["DSDs Model"](https://github.com/LOS-ESSnet/DSD-Editor/blob/master/docs/img/qb.png)
